@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <div class="revision">Revision 8</div>
+  <div class="revision">Revision 10</div>
   <img src="pwa-fonts.png">
   <div class="main-text">
     Minimal PWA, open Console for more!
@@ -26,6 +26,7 @@
     }
 
     fetch('./data.json')
+    fetch('./manifest.json')
 
     var statusEl = document.querySelector('#network-status')
     if (!navigator.onLine) {
